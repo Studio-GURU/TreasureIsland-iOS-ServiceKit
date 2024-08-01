@@ -1,0 +1,1320 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandServiceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandServiceKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureIslandFoundationKit",
+        "printedName": "TreasureIslandFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandServiceKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LauncherKit",
+        "printedName": "LauncherKit",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "GenderType",
+            "printedName": "GenderType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "male",
+                "printedName": "male",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TreasureIslandServiceKit.LauncherKit.GenderType.Type) -> TreasureIslandServiceKit.LauncherKit.GenderType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenderType",
+                        "printedName": "TreasureIslandServiceKit.LauncherKit.GenderType",
+                        "usr": "s:24TreasureIslandServiceKit08LauncherD0C10GenderTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TreasureIslandServiceKit.LauncherKit.GenderType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenderType",
+                            "printedName": "TreasureIslandServiceKit.LauncherKit.GenderType",
+                            "usr": "s:24TreasureIslandServiceKit08LauncherD0C10GenderTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:24TreasureIslandServiceKit08LauncherD0C10GenderTypeO4maleyA2EmF",
+                "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C10GenderTypeO4maleyA2EmF",
+                "moduleName": "TreasureIslandServiceKit"
+              },
+              {
+                "kind": "Var",
+                "name": "female",
+                "printedName": "female",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TreasureIslandServiceKit.LauncherKit.GenderType.Type) -> TreasureIslandServiceKit.LauncherKit.GenderType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenderType",
+                        "printedName": "TreasureIslandServiceKit.LauncherKit.GenderType",
+                        "usr": "s:24TreasureIslandServiceKit08LauncherD0C10GenderTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TreasureIslandServiceKit.LauncherKit.GenderType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenderType",
+                            "printedName": "TreasureIslandServiceKit.LauncherKit.GenderType",
+                            "usr": "s:24TreasureIslandServiceKit08LauncherD0C10GenderTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:24TreasureIslandServiceKit08LauncherD0C10GenderTypeO6femaleyA2EmF",
+                "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C10GenderTypeO6femaleyA2EmF",
+                "moduleName": "TreasureIslandServiceKit"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenderType",
+                    "printedName": "TreasureIslandServiceKit.LauncherKit.GenderType",
+                    "usr": "s:24TreasureIslandServiceKit08LauncherD0C10GenderTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenderType",
+                    "printedName": "TreasureIslandServiceKit.LauncherKit.GenderType",
+                    "usr": "s:24TreasureIslandServiceKit08LauncherD0C10GenderTypeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:24TreasureIslandServiceKit08LauncherD0C10GenderTypeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C10GenderTypeO2eeoiySbAE_AEtFZ",
+                "moduleName": "TreasureIslandServiceKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:24TreasureIslandServiceKit08LauncherD0C10GenderTypeO9hashValueSivp",
+                "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C10GenderTypeO9hashValueSivp",
+                "moduleName": "TreasureIslandServiceKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:24TreasureIslandServiceKit08LauncherD0C10GenderTypeO9hashValueSivg",
+                    "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C10GenderTypeO9hashValueSivg",
+                    "moduleName": "TreasureIslandServiceKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:24TreasureIslandServiceKit08LauncherD0C10GenderTypeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C10GenderTypeO4hash4intoys6HasherVz_tF",
+                "moduleName": "TreasureIslandServiceKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:24TreasureIslandServiceKit08LauncherD0C10GenderTypeO",
+            "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C10GenderTypeO",
+            "moduleName": "TreasureIslandServiceKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Builder",
+            "printedName": "Builder",
+            "children": [
+              {
+                "kind": "Function",
+                "name": "withAdvertisingId",
+                "printedName": "withAdvertisingId(advertisingId:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:24TreasureIslandServiceKit08LauncherD0C7BuilderC17withAdvertisingId011advertisingI0AEXDSS_tF",
+                "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C7BuilderC17withAdvertisingId011advertisingI0AEXDSS_tF",
+                "moduleName": "TreasureIslandServiceKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "withGender",
+                "printedName": "withGender(gender:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenderType",
+                    "printedName": "TreasureIslandServiceKit.LauncherKit.GenderType",
+                    "usr": "s:24TreasureIslandServiceKit08LauncherD0C10GenderTypeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:24TreasureIslandServiceKit08LauncherD0C7BuilderC10withGender6genderAEXDAC0H4TypeO_tF",
+                "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C7BuilderC10withGender6genderAEXDAC0H4TypeO_tF",
+                "moduleName": "TreasureIslandServiceKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "build",
+                "printedName": "build()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LauncherKit",
+                    "printedName": "TreasureIslandServiceKit.LauncherKit",
+                    "usr": "s:24TreasureIslandServiceKit08LauncherD0C"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:24TreasureIslandServiceKit08LauncherD0C7BuilderC5buildACyF",
+                "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C7BuilderC5buildACyF",
+                "moduleName": "TreasureIslandServiceKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:24TreasureIslandServiceKit08LauncherD0C7BuilderC",
+            "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C7BuilderC",
+            "moduleName": "TreasureIslandServiceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "hasMissingDesignatedInitializers": true
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ChannelingBuilder",
+            "printedName": "ChannelingBuilder",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(providerUid:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChannelingBuilder",
+                    "printedName": "TreasureIslandServiceKit.LauncherKit.ChannelingBuilder",
+                    "usr": "s:24TreasureIslandServiceKit08LauncherD0C17ChannelingBuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:24TreasureIslandServiceKit08LauncherD0C17ChannelingBuilderC11providerUidAESS_tcfc",
+                "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C17ChannelingBuilderC11providerUidAESS_tcfc",
+                "moduleName": "TreasureIslandServiceKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "withAdvertisingId",
+                "printedName": "withAdvertisingId(advertisingId:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:24TreasureIslandServiceKit08LauncherD0C17ChannelingBuilderC17withAdvertisingId011advertisingJ0AEXDSS_tF",
+                "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C17ChannelingBuilderC17withAdvertisingId011advertisingJ0AEXDSS_tF",
+                "moduleName": "TreasureIslandServiceKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "withGender",
+                "printedName": "withGender(gender:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenderType",
+                    "printedName": "TreasureIslandServiceKit.LauncherKit.GenderType",
+                    "usr": "s:24TreasureIslandServiceKit08LauncherD0C10GenderTypeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:24TreasureIslandServiceKit08LauncherD0C17ChannelingBuilderC10withGender6genderAEXDAC0I4TypeO_tF",
+                "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C17ChannelingBuilderC10withGender6genderAEXDAC0I4TypeO_tF",
+                "moduleName": "TreasureIslandServiceKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "build",
+                "printedName": "build()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LauncherKit",
+                    "printedName": "TreasureIslandServiceKit.LauncherKit",
+                    "usr": "s:24TreasureIslandServiceKit08LauncherD0C"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:24TreasureIslandServiceKit08LauncherD0C17ChannelingBuilderC5buildACyF",
+                "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C17ChannelingBuilderC5buildACyF",
+                "moduleName": "TreasureIslandServiceKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:24TreasureIslandServiceKit08LauncherD0C17ChannelingBuilderC",
+            "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C17ChannelingBuilderC",
+            "moduleName": "TreasureIslandServiceKit",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "launch",
+            "printedName": "launch(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24TreasureIslandServiceKit08LauncherD0C6launch17completionHandleryySbc_tF",
+            "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C6launch17completionHandleryySbc_tF",
+            "moduleName": "TreasureIslandServiceKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launchWithViewController",
+            "printedName": "launchWithViewController(_:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24TreasureIslandServiceKit08LauncherD0C24launchWithViewController_17completionHandlerySo06UIViewI0C_ySbctF",
+            "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C24launchWithViewController_17completionHandlerySo06UIViewI0C_ySbctF",
+            "moduleName": "TreasureIslandServiceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launchNotification",
+            "printedName": "launchNotification()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24TreasureIslandServiceKit08LauncherD0C18launchNotificationyyF",
+            "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C18launchNotificationyyF",
+            "moduleName": "TreasureIslandServiceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "launchNotificationSetting",
+            "printedName": "launchNotificationSetting()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24TreasureIslandServiceKit08LauncherD0C25launchNotificationSettingyyF",
+            "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C25launchNotificationSettingyyF",
+            "moduleName": "TreasureIslandServiceKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24TreasureIslandServiceKit08LauncherD0C",
+        "mangledName": "$s24TreasureIslandServiceKit08LauncherD0C",
+        "moduleName": "TreasureIslandServiceKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandServiceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandServiceKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureIslandFoundationKit",
+        "printedName": "TreasureIslandFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandServiceKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConfigurationKit",
+        "printedName": "ConfigurationKit",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isInit",
+            "printedName": "isInit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V6isInitSbvpZ",
+            "mangledName": "$s24TreasureIslandServiceKit013ConfigurationD0V6isInitSbvpZ",
+            "moduleName": "TreasureIslandServiceKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V6isInitSbvgZ",
+                "mangledName": "$s24TreasureIslandServiceKit013ConfigurationD0V6isInitSbvgZ",
+                "moduleName": "TreasureIslandServiceKit",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Environment",
+            "printedName": "Environment",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "develop",
+                "printedName": "develop",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TreasureIslandServiceKit.ConfigurationKit.Environment.Type) -> TreasureIslandServiceKit.ConfigurationKit.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "TreasureIslandServiceKit.ConfigurationKit.Environment",
+                        "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TreasureIslandServiceKit.ConfigurationKit.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "TreasureIslandServiceKit.ConfigurationKit.Environment",
+                            "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO7developyA2EmF",
+                "mangledName": "$s24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO7developyA2EmF",
+                "moduleName": "TreasureIslandServiceKit"
+              },
+              {
+                "kind": "Var",
+                "name": "test",
+                "printedName": "test",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TreasureIslandServiceKit.ConfigurationKit.Environment.Type) -> TreasureIslandServiceKit.ConfigurationKit.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "TreasureIslandServiceKit.ConfigurationKit.Environment",
+                        "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TreasureIslandServiceKit.ConfigurationKit.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "TreasureIslandServiceKit.ConfigurationKit.Environment",
+                            "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO4testyA2EmF",
+                "mangledName": "$s24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO4testyA2EmF",
+                "moduleName": "TreasureIslandServiceKit"
+              },
+              {
+                "kind": "Var",
+                "name": "live",
+                "printedName": "live",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TreasureIslandServiceKit.ConfigurationKit.Environment.Type) -> TreasureIslandServiceKit.ConfigurationKit.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "TreasureIslandServiceKit.ConfigurationKit.Environment",
+                        "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "TreasureIslandServiceKit.ConfigurationKit.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "TreasureIslandServiceKit.ConfigurationKit.Environment",
+                            "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO4liveyA2EmF",
+                "mangledName": "$s24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO4liveyA2EmF",
+                "moduleName": "TreasureIslandServiceKit"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "TreasureIslandServiceKit.ConfigurationKit.Environment",
+                    "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "TreasureIslandServiceKit.ConfigurationKit.Environment",
+                    "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO2eeoiySbAE_AEtFZ",
+                "moduleName": "TreasureIslandServiceKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO9hashValueSivp",
+                "mangledName": "$s24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO9hashValueSivp",
+                "moduleName": "TreasureIslandServiceKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO9hashValueSivg",
+                    "mangledName": "$s24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO9hashValueSivg",
+                    "moduleName": "TreasureIslandServiceKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO4hash4intoys6HasherVz_tF",
+                "moduleName": "TreasureIslandServiceKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO",
+            "mangledName": "$s24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO",
+            "moduleName": "TreasureIslandServiceKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Builder",
+            "printedName": "Builder",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(appId:appSecret:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "TreasureIslandServiceKit.ConfigurationKit.Builder",
+                    "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V7BuilderC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V7BuilderC5appId0G6SecretAESS_SStcfc",
+                "mangledName": "$s24TreasureIslandServiceKit013ConfigurationD0V7BuilderC5appId0G6SecretAESS_SStcfc",
+                "moduleName": "TreasureIslandServiceKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "withAllowLog",
+                "printedName": "withAllowLog(allow:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V7BuilderC12withAllowLog5allowAEXDSb_tF",
+                "mangledName": "$s24TreasureIslandServiceKit013ConfigurationD0V7BuilderC12withAllowLog5allowAEXDSb_tF",
+                "moduleName": "TreasureIslandServiceKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "withEnvironment",
+                "printedName": "withEnvironment(environment:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "TreasureIslandServiceKit.ConfigurationKit.Environment",
+                    "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V11EnvironmentO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V7BuilderC15withEnvironment11environmentAEXDAC0H0O_tF",
+                "mangledName": "$s24TreasureIslandServiceKit013ConfigurationD0V7BuilderC15withEnvironment11environmentAEXDAC0H0O_tF",
+                "moduleName": "TreasureIslandServiceKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "withContractorNotification",
+                "printedName": "withContractorNotification(contractor:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationContract",
+                    "printedName": "any TreasureIslandFoundationKit.NotificationContract",
+                    "usr": "s:27TreasureIslandFoundationKit20NotificationContractP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V7BuilderC26withContractorNotification10contractorAEXD0ab10FoundationD00I8Contract_p_tF",
+                "mangledName": "$s24TreasureIslandServiceKit013ConfigurationD0V7BuilderC26withContractorNotification10contractorAEXD0ab10FoundationD00I8Contract_p_tF",
+                "moduleName": "TreasureIslandServiceKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "withContractorPurchase",
+                "printedName": "withContractorPurchase(contractor:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PurchaseContract",
+                    "printedName": "any TreasureIslandFoundationKit.PurchaseContract",
+                    "usr": "s:27TreasureIslandFoundationKit16PurchaseContractP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V7BuilderC22withContractorPurchase10contractorAEXD0ab10FoundationD00I8Contract_p_tF",
+                "mangledName": "$s24TreasureIslandServiceKit013ConfigurationD0V7BuilderC22withContractorPurchase10contractorAEXD0ab10FoundationD00I8Contract_p_tF",
+                "moduleName": "TreasureIslandServiceKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "build",
+                "printedName": "build()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigurationKit",
+                    "printedName": "TreasureIslandServiceKit.ConfigurationKit",
+                    "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V7BuilderC5buildACyF",
+                "mangledName": "$s24TreasureIslandServiceKit013ConfigurationD0V7BuilderC5buildACyF",
+                "moduleName": "TreasureIslandServiceKit",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V7BuilderC",
+            "mangledName": "$s24TreasureIslandServiceKit013ConfigurationD0V7BuilderC",
+            "moduleName": "TreasureIslandServiceKit",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V10initialize17completionHandleryySbc_tF",
+            "mangledName": "$s24TreasureIslandServiceKit013ConfigurationD0V10initialize17completionHandleryySbc_tF",
+            "moduleName": "TreasureIslandServiceKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:24TreasureIslandServiceKit013ConfigurationD0V",
+        "mangledName": "$s24TreasureIslandServiceKit013ConfigurationD0V",
+        "moduleName": "TreasureIslandServiceKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandServiceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandServiceKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureIslandFoundationKit",
+        "printedName": "TreasureIslandFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandServiceKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandServiceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandServiceKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureIslandFoundationKit",
+        "printedName": "TreasureIslandFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandServiceKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandServiceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandServiceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandServiceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandServiceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandServiceKit"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandServiceKit\/TreasureIslandServiceKit\/LauncherKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1294,
+      "length": 38,
+      "value": "\"00000000-0000-0000-0000-000000000000\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandServiceKit\/TreasureIslandServiceKit\/ConfigurationKit.swift",
+      "kind": "StringLiteral",
+      "offset": 252,
+      "length": 26,
+      "value": "\"ConfigurationKit.Builder\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandServiceKit\/TreasureIslandServiceKit\/ConfigurationKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 989,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandServiceKit\/TreasureIslandServiceKit\/Scene\/SceneMainViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 455,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandServiceKit\/TreasureIslandServiceKit\/Scene\/SceneMainViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 502,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandServiceKit\/TreasureIslandServiceKit\/Scene\/SceneMainViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1366,
+      "length": 25,
+      "value": "\"SceneMainViewController\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandServiceKit\/TreasureIslandServiceKit\/Component\/UI\/WebContentKit\/WebContentView.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 16,
+      "value": "\"WebContentView\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandServiceKit\/TreasureIslandServiceKit\/Component\/UI\/WebContentKit\/WebContentView.swift",
+      "kind": "StringLiteral",
+      "offset": 172,
+      "length": 14,
+      "value": "\"TreasureIslandServiceKit.WebContentView\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandServiceKit\/TreasureIslandServiceKit\/Component\/UI\/WebContentKit\/WebContent+Behavior.swift",
+      "kind": "StringLiteral",
+      "offset": 546,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandServiceKit\/TreasureIslandServiceKit\/Component\/UI\/WebContentKit\/WebContent+Behavior.swift",
+      "kind": "BooleanLiteral",
+      "offset": 569,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandServiceKit\/TreasureIslandServiceKit\/Component\/UI\/WebContentKit\/WebContent+BehaviorType.swift",
+      "kind": "StringLiteral",
+      "offset": 180,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandServiceKit\/TreasureIslandServiceKit\/Component\/UI\/WebContentKit\/WebContent+BehaviorType.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 13,
+      "value": "\"closeWindow\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandServiceKit\/TreasureIslandServiceKit\/Component\/UI\/WebContentKit\/WebContent+BehaviorType.swift",
+      "kind": "StringLiteral",
+      "offset": 252,
+      "length": 18,
+      "value": "\"postNotification\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandServiceKit\/TreasureIslandServiceKit\/Component\/UI\/WebContentKit\/WebContent+BehaviorType.swift",
+      "kind": "StringLiteral",
+      "offset": 180,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandServiceKit\/TreasureIslandServiceKit\/Component\/UI\/WebContentKit\/WebContent+BehaviorType.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 13,
+      "value": "\"closeWindow\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandServiceKit\/TreasureIslandServiceKit\/Component\/UI\/WebContentKit\/WebContent+BehaviorType.swift",
+      "kind": "StringLiteral",
+      "offset": 252,
+      "length": 18,
+      "value": "\"postNotification\""
+    },
+    {
+      "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandServiceKit\/TreasureIslandServiceKit\/Component\/UI\/SecureContentKit\/SecureContentView.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 19,
+      "value": "\"SecureContentView\""
+    }
+  ]
+}

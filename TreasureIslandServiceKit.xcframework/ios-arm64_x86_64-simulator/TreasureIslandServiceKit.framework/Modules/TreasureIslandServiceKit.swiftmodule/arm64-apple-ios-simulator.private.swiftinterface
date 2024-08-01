@@ -1,0 +1,68 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios17.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TreasureIslandServiceKit
+import Foundation
+import Swift
+import TreasureIslandFoundationKit
+@_exported import TreasureIslandServiceKit
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class LauncherKit {
+  public enum GenderType {
+    case male
+    case female
+    public static func == (a: TreasureIslandServiceKit.LauncherKit.GenderType, b: TreasureIslandServiceKit.LauncherKit.GenderType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_hasMissingDesignatedInitializers public class Builder {
+    public func withAdvertisingId(advertisingId: Swift.String) -> Self
+    public func withGender(gender: TreasureIslandServiceKit.LauncherKit.GenderType) -> Self
+    public func build() -> TreasureIslandServiceKit.LauncherKit
+    @objc deinit
+  }
+  public class ChannelingBuilder {
+    public init(providerUid: Swift.String)
+    public func withAdvertisingId(advertisingId: Swift.String) -> Self
+    public func withGender(gender: TreasureIslandServiceKit.LauncherKit.GenderType) -> Self
+    public func build() -> TreasureIslandServiceKit.LauncherKit
+    @objc deinit
+  }
+  public func launch(completionHandler: @escaping (_ success: Swift.Bool) -> Swift.Void)
+  public func launchWithViewController(_ rootViewController: UIKit.UIViewController, completionHandler: @escaping (_ success: Swift.Bool) -> Swift.Void)
+  public func launchNotification()
+  public func launchNotificationSetting()
+  @objc deinit
+}
+public struct ConfigurationKit {
+  public static var isInit: Swift.Bool {
+    get
+  }
+  public enum Environment {
+    case develop, test, live
+    public static func == (a: TreasureIslandServiceKit.ConfigurationKit.Environment, b: TreasureIslandServiceKit.ConfigurationKit.Environment) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public class Builder {
+    public init(appId: Swift.String, appSecret: Swift.String)
+    public func withAllowLog(allow: Swift.Bool) -> Self
+    public func withEnvironment(environment: TreasureIslandServiceKit.ConfigurationKit.Environment) -> Self
+    public func withContractorNotification(contractor: any TreasureIslandFoundationKit.NotificationContract) -> Self
+    public func withContractorPurchase(contractor: any TreasureIslandFoundationKit.PurchaseContract) -> Self
+    public func build() -> TreasureIslandServiceKit.ConfigurationKit
+    @objc deinit
+  }
+  public func initialize(completionHandler: @escaping (Swift.Bool) -> Swift.Void)
+}
+extension TreasureIslandServiceKit.LauncherKit.GenderType : Swift.Equatable {}
+extension TreasureIslandServiceKit.LauncherKit.GenderType : Swift.Hashable {}
+extension TreasureIslandServiceKit.ConfigurationKit.Environment : Swift.Equatable {}
+extension TreasureIslandServiceKit.ConfigurationKit.Environment : Swift.Hashable {}

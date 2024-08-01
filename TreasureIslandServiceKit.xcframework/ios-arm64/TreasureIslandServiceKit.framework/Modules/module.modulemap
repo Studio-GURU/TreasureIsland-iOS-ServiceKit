@@ -1,0 +1,6 @@
+framework module TreasureIslandServiceKit {
+  umbrella header "TreasureIslandServiceKit.h"
+  export *
+
+  module * { export * }
+}
