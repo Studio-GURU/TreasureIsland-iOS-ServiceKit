@@ -6,19 +6,19 @@
 	<dict>
 		<key>Frameworks/TreasureIslandFoundationKit.framework/Info.plist</key>
 		<data>
-		k/Ob4pdA71O/aYfL5s8+F2aOr+4=
+		di6Hct6OZ0Jh4Dm17C+C3ogOk7I=
 		</data>
 		<key>Frameworks/TreasureIslandFoundationKit.framework/TreasureIslandFoundationKit</key>
 		<data>
-		ZkG9/b/cWtG0IVrEEP/0zZCfAaE=
+		3Veqv8V+CDl7aBUtf0BEaWDeTtI=
 		</data>
 		<key>Frameworks/TreasureIslandFoundationKit.framework/TreasureIslandXConfig.xcconfig</key>
 		<data>
-		morS3oRVhne4pXxtvlPcWzrnTbo=
+		lPpfToGSi2FPfMT/6AlpK6VLC6o=
 		</data>
 		<key>Frameworks/TreasureIslandFoundationKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		qjq3p7ShzLnkw66bItMY89r+AHM=
+		nS6+nanbvVqBDmzYxCGBxditz8g=
 		</data>
 		<key>Headers/TreasureIslandServiceKit.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rQ22IJ/GjEHFIWa43zpKLdB520k=
+		l2XoFQ+34mnHfbjki98Zrz0iw2o=
 		</data>
 		<key>Modules/TreasureIslandServiceKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>TreasureIslandXConfig.xcconfig</key>
 		<data>
-		morS3oRVhne4pXxtvlPcWzrnTbo=
+		lPpfToGSi2FPfMT/6AlpK6VLC6o=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -83,28 +83,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oAcT2VL8WtT0UEtUJu4y9jGGu8hmzuEnJ4OiM804Dos=
+			i4uwFDTwdRNGHwO6nRn56UYNnEgi+ec5iBTTX0uSxXE=
 			</data>
 		</dict>
 		<key>Frameworks/TreasureIslandFoundationKit.framework/TreasureIslandFoundationKit</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Iirzs4CIwxdlGx2q3CyWIpfOeCKDHILRtzbJKPn0LVY=
+			q9UaeGzS2ph44GFTIAIcjL44POf8gZFA0f1ZxfC5Zvk=
 			</data>
 		</dict>
 		<key>Frameworks/TreasureIslandFoundationKit.framework/TreasureIslandXConfig.xcconfig</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GnyutN/PATiXDdbvkkWONpyNTKRLSz62ixN2U+2mkR4=
+			no4RtTdDyp+cDg6YT2BGaC4sDCGNukxZZdaS5Ey7jEg=
 			</data>
 		</dict>
 		<key>Frameworks/TreasureIslandFoundationKit.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HnTOWXTkfVdH59J5OmtK9NRCN1Catl0jtNaclqnwzoE=
+			f3QIKv20S/AGbz6bd7N2erUsF3YphQxltRHDe4VoKhU=
 			</data>
 		</dict>
 		<key>Headers/TreasureIslandServiceKit.h</key>
@@ -195,7 +195,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GnyutN/PATiXDdbvkkWONpyNTKRLSz62ixN2U+2mkR4=
+			no4RtTdDyp+cDg6YT2BGaC4sDCGNukxZZdaS5Ey7jEg=
 			</data>
 		</dict>
 	</dict>
